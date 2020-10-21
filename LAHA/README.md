@@ -1,5 +1,5 @@
-# AttentionXML
-[AttentionXML: Label Tree-based Attention-Aware Deep Model for High-Performance Extreme Multi-Label Text Classification](https://arxiv.org/abs/1811.01727)
+# Label-aware Document Representation via Hybrid Attention for Extreme Multi-Label Text Classification
+[LAHA : Label-aware Document Representation via Hybrid Attention for Extreme Multi-Label Text Classification.](https://arxiv.org/abs/1905.10070)
 
 ## Requirements
 
@@ -107,7 +107,5 @@ python evaluation.py \
 ```
 
 ## Reference
-You et al., [AttentionXML: Label Tree-based Attention-Aware Deep Model for High-Performance Extreme Multi-Label Text Classification](https://arxiv.org/abs/1811.01727), NeurIPS 2019
-
-## Declaration
-It is free for non-commercial use. For commercial use, please contact Mr. Ronghi You and Prof. Shanfeng Zhu (zhusf@fudan.edu.cn).
+You et al., [LAHA : Label-aware Document Representation via Hybrid Attention for Extreme Multi-Label Text Classification.]
+(https://arxiv.org/abs/1905.10070)
