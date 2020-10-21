@@ -1,0 +1,23 @@
+name: snowball
+
+train:
+  texts: data/snowball/train.npy
+  labels: data/snowball/train_labels.npy
+
+valid:
+  size: 70000
+
+test:
+  texts: data/snowball/test.npy
+  labels: data/snowball/test_labels.npy
+
+embedding:
+  emb_init: data/snowball/emb_init.npy
+
+output:
+  res: results
+
+labels_binarizer: data/snowball/labels_binarizer
+
+model:
+  emb_size: 300

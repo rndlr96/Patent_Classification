@@ -1,0 +1,23 @@
+name: pre_glove
+
+train:
+  texts: data/pre_glove/train.npy
+  labels: data/pre_glove/train_labels.npy
+
+valid:
+  size: 70000
+
+test:
+  texts: data/pre_glove/test.npy
+  labels: data/pre_glove/test_labels.npy
+
+embedding:
+  emb_init: data/pre_glove/emb_init.npy
+
+output:
+  res: results
+
+labels_binarizer: data/pre_glove/labels_binarizer
+
+model:
+  emb_size: 300

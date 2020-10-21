@@ -1,0 +1,20 @@
+name: custom_glove
+
+model:
+  hidden_size: 512
+  layers_num: 2
+  linear_size: [512, 256]
+  dropout: 0.5
+
+train:
+  batch_size: 256
+  nb_epoch: 30
+  swa_warmup: 10
+
+valid:
+  batch_size: 256
+
+predict:
+  batch_size: 256
+
+path: models

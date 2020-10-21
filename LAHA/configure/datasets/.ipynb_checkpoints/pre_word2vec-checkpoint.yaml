@@ -1,0 +1,23 @@
+name: pre_word2vec
+
+train:
+  texts: data/pre_word2vec/train.npy
+  labels: data/pre_word2vec/train_labels.npy
+
+valid:
+  size: 70000
+
+test:
+  texts: data/pre_word2vec/test.npy
+  labels: data/pre_word2vec/test_labels.npy
+
+embedding:
+  emb_init: data/pre_word2vec/emb_init.npy
+
+output:
+  res: results
+
+labels_binarizer: data/pre_word2vec/labels_binarizer
+
+model:
+  emb_size: 300

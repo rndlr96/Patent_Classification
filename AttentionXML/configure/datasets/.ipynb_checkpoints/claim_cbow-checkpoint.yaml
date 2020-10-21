@@ -1,0 +1,23 @@
+name: custom_glove
+
+train:
+  texts: data/claim/train.npy
+  labels: data/claim/train_labels.npy
+
+valid:
+  size: 70000
+
+test:
+  texts: data/claim/test.npy
+  labels: data/claim/test_labels.npy
+
+embedding:
+  emb_init: data/claim/emb_init.npy
+
+output:
+  res: results
+
+labels_binarizer: data/claim/labels_binarizer
+
+model:
+  emb_size: 300

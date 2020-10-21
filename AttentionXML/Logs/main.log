@@ -1,0 +1,145 @@
+[I 200913 05:21:34 main:42] Model Name: claims
+[I 200913 05:21:34 main:45] Loading Training and Validation Set
+[I 200913 05:21:39 main:57] Number of Labels: 1383
+[I 200913 05:21:39 main:58] Size of Training Set: 791839
+[I 200913 05:21:39 main:59] Size of Validation Set: 70000
+[I 200913 05:21:39 main:61] Training
+[W 200913 05:23:41 models:107] Clipping gradients with total norm 0.007519999984651804 and max norm 0.00139999995008111
+[I 200913 05:24:58 models:86] 0 25600 train loss: 0.00877 P@5: 0.03 nDCG@5: 0.08107 early stop: 0
+[I 200913 05:28:12 models:86] 0 51200 train loss: 0.00738 P@5: 0.03225 nDCG@5: 0.08961 early stop: 0
+[I 200913 05:31:28 models:86] 0 76800 train loss: 0.00694 P@5: 0.05202 nDCG@5: 0.13119 early stop: 0
+[I 200913 05:34:43 models:86] 0 102400 train loss: 0.00613 P@5: 0.08546 nDCG@5: 0.22026 early stop: 0
+[I 200913 05:37:57 models:86] 0 128000 train loss: 0.00521 P@5: 0.11015 nDCG@5: 0.29767 early stop: 0
+[I 200913 05:41:12 models:86] 0 153600 train loss: 0.00516 P@5: 0.12536 nDCG@5: 0.33847 early stop: 0
+[I 200913 05:44:26 models:86] 0 179200 train loss: 0.00473 P@5: 0.14283 nDCG@5: 0.39336 early stop: 0
+[I 200913 05:47:40 models:86] 0 204800 train loss: 0.00441 P@5: 0.15104 nDCG@5: 0.41774 early stop: 0
+[I 200913 05:50:54 models:86] 0 230400 train loss: 0.00422 P@5: 0.15793 nDCG@5: 0.44136 early stop: 0
+[I 200913 05:54:08 models:86] 0 256000 train loss: 0.00451 P@5: 0.16013 nDCG@5: 0.4463 early stop: 0
+[I 200913 05:57:23 models:86] 0 281600 train loss: 0.0044 P@5: 0.16406 nDCG@5: 0.46192 early stop: 0
+[I 200913 06:00:37 models:86] 0 307200 train loss: 0.00408 P@5: 0.16754 nDCG@5: 0.47212 early stop: 0
+[I 200913 06:03:51 models:86] 0 332800 train loss: 0.0042 P@5: 0.16904 nDCG@5: 0.48006 early stop: 0
+[I 200913 06:07:05 models:86] 0 358400 train loss: 0.00393 P@5: 0.17143 nDCG@5: 0.48737 early stop: 0
+[I 200913 06:10:20 models:86] 0 384000 train loss: 0.0041 P@5: 0.17458 nDCG@5: 0.49788 early stop: 0
+[W 200913 06:11:45 models:107] Clipping gradients with total norm 0.019940000027418137 and max norm 0.002219999907538295
+[I 200913 06:13:34 models:86] 0 409600 train loss: 0.00405 P@5: 0.17738 nDCG@5: 0.50709 early stop: 0
+[I 200913 06:16:47 models:86] 0 435200 train loss: 0.00399 P@5: 0.17933 nDCG@5: 0.51483 early stop: 0
+[I 200913 06:20:02 models:86] 0 460800 train loss: 0.00406 P@5: 0.17992 nDCG@5: 0.51534 early stop: 0
+[I 200913 06:23:16 models:86] 0 486400 train loss: 0.00394 P@5: 0.17937 nDCG@5: 0.5169 early stop: 0
+[I 200913 06:26:30 models:86] 0 512000 train loss: 0.00417 P@5: 0.18196 nDCG@5: 0.52477 early stop: 0
+[I 200913 06:29:44 models:86] 0 537600 train loss: 0.00427 P@5: 0.1826 nDCG@5: 0.52842 early stop: 0
+[I 200913 06:32:58 models:86] 0 563200 train loss: 0.00384 P@5: 0.18382 nDCG@5: 0.53134 early stop: 0
+[I 200913 06:36:13 models:86] 0 588800 train loss: 0.00384 P@5: 0.18338 nDCG@5: 0.53137 early stop: 0
+[W 200913 06:36:21 models:107] Clipping gradients with total norm 0.009750000201165676 and max norm 0.0018500000005587935
+[I 200913 06:39:28 models:86] 0 614400 train loss: 0.00409 P@5: 0.18474 nDCG@5: 0.53458 early stop: 0
+[I 200913 06:42:42 models:86] 0 640000 train loss: 0.00386 P@5: 0.18573 nDCG@5: 0.5392 early stop: 0
+[I 200913 06:45:54 models:86] 0 665600 train loss: 0.0037 P@5: 0.18245 nDCG@5: 0.52724 early stop: 1
+[I 200913 06:49:10 models:86] 0 691200 train loss: 0.00341 P@5: 0.18627 nDCG@5: 0.54196 early stop: 0
+[I 200913 06:52:22 models:86] 0 716800 train loss: 0.00373 P@5: 0.18514 nDCG@5: 0.53811 early stop: 1
+[I 200913 06:55:34 models:86] 0 742400 train loss: 0.00371 P@5: 0.18525 nDCG@5: 0.53878 early stop: 2
+[I 200913 06:58:49 models:86] 0 768000 train loss: 0.00346 P@5: 0.18687 nDCG@5: 0.54273 early stop: 0
+[I 200913 07:02:00 models:86] 1 1536 train loss: 0.00362 P@5: 0.18522 nDCG@5: 0.53662 early stop: 1
+[I 200913 07:05:15 models:86] 1 27136 train loss: 0.00359 P@5: 0.18712 nDCG@5: 0.54516 early stop: 0
+[I 200913 07:08:31 models:86] 1 52736 train loss: 0.00386 P@5: 0.18839 nDCG@5: 0.54982 early stop: 0
+[I 200913 07:11:45 models:86] 1 78336 train loss: 0.004 P@5: 0.18937 nDCG@5: 0.5529 early stop: 0
+[W 200913 07:12:39 models:107] Clipping gradients with total norm 0.013570000417530537 and max norm 0.001879999996162951
+[I 200913 07:14:58 models:86] 1 103936 train loss: 0.00365 P@5: 0.18805 nDCG@5: 0.54866 early stop: 1
+[I 200913 07:18:10 models:86] 1 129536 train loss: 0.00364 P@5: 0.18841 nDCG@5: 0.55126 early stop: 2
+[I 200913 07:21:23 models:86] 1 155136 train loss: 0.00382 P@5: 0.18763 nDCG@5: 0.54881 early stop: 3
+[I 200913 07:24:35 models:86] 1 180736 train loss: 0.00366 P@5: 0.18882 nDCG@5: 0.55055 early stop: 4
+[I 200913 07:27:47 models:86] 1 206336 train loss: 0.00333 P@5: 0.1891 nDCG@5: 0.55289 early stop: 5
+[I 200913 07:30:59 models:86] 1 231936 train loss: 0.00377 P@5: 0.18787 nDCG@5: 0.54799 early stop: 6
+[I 200913 07:34:11 models:86] 1 257536 train loss: 0.00362 P@5: 0.18788 nDCG@5: 0.54687 early stop: 7
+[I 200913 07:37:26 models:86] 1 283136 train loss: 0.00378 P@5: 0.18891 nDCG@5: 0.55321 early stop: 0
+[I 200913 07:40:38 models:86] 1 308736 train loss: 0.00328 P@5: 0.18579 nDCG@5: 0.54108 early stop: 1
+[I 200913 07:43:49 models:86] 1 334336 train loss: 0.00333 P@5: 0.18757 nDCG@5: 0.54688 early stop: 2
+[I 200913 07:47:04 models:86] 1 359936 train loss: 0.00385 P@5: 0.19043 nDCG@5: 0.55736 early stop: 0
+[I 200913 07:50:16 models:86] 1 385536 train loss: 0.00328 P@5: 0.18989 nDCG@5: 0.55693 early stop: 1
+[I 200913 07:53:30 models:86] 1 411136 train loss: 0.0036 P@5: 0.19011 nDCG@5: 0.55803 early stop: 0
+[I 200913 07:56:43 models:86] 1 436736 train loss: 0.00365 P@5: 0.18976 nDCG@5: 0.55722 early stop: 1
+[I 200913 07:59:58 models:86] 1 462336 train loss: 0.00344 P@5: 0.19121 nDCG@5: 0.56166 early stop: 0
+[I 200913 08:03:10 models:86] 1 487936 train loss: 0.0035 P@5: 0.19055 nDCG@5: 0.55738 early stop: 1
+[I 200913 08:06:23 models:86] 1 513536 train loss: 0.00368 P@5: 0.19068 nDCG@5: 0.5577 early stop: 2
+[I 200913 08:09:38 models:86] 1 539136 train loss: 0.00406 P@5: 0.19253 nDCG@5: 0.56361 early stop: 0
+[I 200913 08:12:51 models:86] 1 564736 train loss: 0.00386 P@5: 0.19061 nDCG@5: 0.55813 early stop: 1
+[I 200913 08:16:05 models:86] 1 590336 train loss: 0.00333 P@5: 0.19253 nDCG@5: 0.56392 early stop: 0
+[I 200913 08:19:17 models:86] 1 615936 train loss: 0.0036 P@5: 0.19132 nDCG@5: 0.56249 early stop: 1
+[I 200913 08:22:29 models:86] 1 641536 train loss: 0.00362 P@5: 0.19082 nDCG@5: 0.55707 early stop: 2
+[I 200913 08:25:41 models:86] 1 667136 train loss: 0.00343 P@5: 0.19124 nDCG@5: 0.56026 early stop: 3
+[I 200913 08:28:55 models:86] 1 692736 train loss: 0.00349 P@5: 0.19196 nDCG@5: 0.56394 early stop: 0
+[I 200913 08:32:06 models:86] 1 718336 train loss: 0.00357 P@5: 0.19164 nDCG@5: 0.56119 early stop: 1
+[W 200913 08:33:20 models:107] Clipping gradients with total norm 0.03985000029206276 and max norm 0.0015200000489130616
+[I 200913 08:35:18 models:86] 1 743936 train loss: 0.00333 P@5: 0.1914 nDCG@5: 0.56086 early stop: 2
+[I 200913 08:38:31 models:86] 1 769536 train loss: 0.00355 P@5: 0.19229 nDCG@5: 0.56116 early stop: 3
+[I 200913 08:41:42 models:86] 2 3072 train loss: 0.00349 P@5: 0.19229 nDCG@5: 0.56304 early stop: 4
+[I 200913 08:44:55 models:86] 2 28672 train loss: 0.00343 P@5: 0.19075 nDCG@5: 0.55904 early stop: 5
+[I 200913 08:48:06 models:86] 2 54272 train loss: 0.00317 P@5: 0.19053 nDCG@5: 0.55601 early stop: 6
+[I 200913 08:51:18 models:86] 2 79872 train loss: 0.0032 P@5: 0.19047 nDCG@5: 0.55793 early stop: 7
+[I 200913 08:54:31 models:86] 2 105472 train loss: 0.00341 P@5: 0.19139 nDCG@5: 0.56141 early stop: 8
+[I 200913 08:57:43 models:86] 2 131072 train loss: 0.00354 P@5: 0.18888 nDCG@5: 0.55325 early stop: 9
+[I 200913 09:00:55 models:86] 2 156672 train loss: 0.00356 P@5: 0.18875 nDCG@5: 0.55277 early stop: 10
+[I 200913 09:04:08 models:86] 2 182272 train loss: 0.00363 P@5: 0.19058 nDCG@5: 0.55996 early stop: 11
+[I 200913 09:07:19 models:86] 2 207872 train loss: 0.00326 P@5: 0.18982 nDCG@5: 0.55476 early stop: 12
+[I 200913 09:10:32 models:86] 2 233472 train loss: 0.00313 P@5: 0.18792 nDCG@5: 0.54936 early stop: 13
+[I 200913 09:13:44 models:86] 2 259072 train loss: 0.00328 P@5: 0.18969 nDCG@5: 0.5552 early stop: 14
+[I 200913 09:16:59 models:86] 2 284672 train loss: 0.00329 P@5: 0.1956 nDCG@5: 0.57575 early stop: 0
+[W 200913 09:18:55 models:107] Clipping gradients with total norm 0.006899999920278788 and max norm 0.0012700000079348683
+[I 200913 09:20:15 models:86] 2 310272 train loss: 0.00339 P@5: 0.19708 nDCG@5: 0.57981 early stop: 0
+[I 200913 09:23:27 models:86] 2 335872 train loss: 0.00352 P@5: 0.19453 nDCG@5: 0.57244 early stop: 1
+[I 200913 09:26:39 models:86] 2 361472 train loss: 0.00357 P@5: 0.19407 nDCG@5: 0.57071 early stop: 2
+[I 200913 09:29:51 models:86] 2 387072 train loss: 0.00357 P@5: 0.19442 nDCG@5: 0.5712 early stop: 3
+[I 200913 09:33:03 models:86] 2 412672 train loss: 0.00348 P@5: 0.19378 nDCG@5: 0.57096 early stop: 4
+[I 200913 09:36:15 models:86] 2 438272 train loss: 0.00315 P@5: 0.19481 nDCG@5: 0.57209 early stop: 5
+[I 200913 09:39:27 models:86] 2 463872 train loss: 0.00316 P@5: 0.1939 nDCG@5: 0.57059 early stop: 6
+[I 200913 09:42:39 models:86] 2 489472 train loss: 0.00301 P@5: 0.19532 nDCG@5: 0.57519 early stop: 7
+[I 200913 09:45:51 models:86] 2 515072 train loss: 0.00325 P@5: 0.19499 nDCG@5: 0.57338 early stop: 8
+[I 200913 09:49:04 models:86] 2 540672 train loss: 0.00368 P@5: 0.19479 nDCG@5: 0.57217 early stop: 9
+[I 200913 09:52:16 models:86] 2 566272 train loss: 0.00339 P@5: 0.19427 nDCG@5: 0.57159 early stop: 10
+[I 200913 09:55:28 models:86] 2 591872 train loss: 0.00322 P@5: 0.19465 nDCG@5: 0.5725 early stop: 11
+[I 200913 09:58:41 models:86] 2 617472 train loss: 0.00349 P@5: 0.19407 nDCG@5: 0.56956 early stop: 12
+[I 200913 10:01:54 models:86] 2 643072 train loss: 0.00335 P@5: 0.19347 nDCG@5: 0.56787 early stop: 13
+[I 200913 10:05:05 models:86] 2 668672 train loss: 0.00311 P@5: 0.19268 nDCG@5: 0.5655 early stop: 14
+[I 200913 10:08:17 models:86] 2 694272 train loss: 0.0034 P@5: 0.19401 nDCG@5: 0.57094 early stop: 15
+[W 200913 10:09:24 models:107] Clipping gradients with total norm 0.014539999887347221 and max norm 0.0013000000035390258
+[I 200913 10:11:31 models:86] 2 719872 train loss: 0.00324 P@5: 0.19269 nDCG@5: 0.56451 early stop: 16
+[I 200913 10:14:43 models:86] 2 745472 train loss: 0.00322 P@5: 0.19124 nDCG@5: 0.56045 early stop: 17
+[I 200913 10:17:55 models:86] 2 771072 train loss: 0.00309 P@5: 0.19408 nDCG@5: 0.56994 early stop: 18
+[I 200913 10:21:08 models:86] 3 4608 train loss: 0.00309 P@5: 0.19159 nDCG@5: 0.56201 early stop: 19
+[I 200913 10:24:20 models:86] 3 30208 train loss: 0.00291 P@5: 0.1898 nDCG@5: 0.5564 early stop: 20
+[W 200913 10:26:11 models:107] Clipping gradients with total norm 0.018079999834299088 and max norm 0.0015899999998509884
+[I 200913 10:27:31 models:86] 3 55808 train loss: 0.00331 P@5: 0.19233 nDCG@5: 0.5627 early stop: 21
+[I 200913 10:30:43 models:86] 3 81408 train loss: 0.00309 P@5: 0.19067 nDCG@5: 0.55911 early stop: 22
+[I 200913 10:33:56 models:86] 3 107008 train loss: 0.00329 P@5: 0.19027 nDCG@5: 0.55805 early stop: 23
+[I 200913 10:37:08 models:86] 3 132608 train loss: 0.00296 P@5: 0.19135 nDCG@5: 0.56066 early stop: 24
+[W 200913 10:37:33 models:107] Clipping gradients with total norm 0.024730000644922256 and max norm 0.0018599999602884054
+[I 200913 10:40:21 models:86] 3 158208 train loss: 0.00318 P@5: 0.18885 nDCG@5: 0.55342 early stop: 25
+[I 200913 10:43:33 models:86] 3 183808 train loss: 0.00353 P@5: 0.18845 nDCG@5: 0.5519 early stop: 26
+[I 200913 10:46:45 models:86] 3 209408 train loss: 0.00333 P@5: 0.18844 nDCG@5: 0.55238 early stop: 27
+[I 200913 10:49:57 models:86] 3 235008 train loss: 0.00332 P@5: 0.18902 nDCG@5: 0.55289 early stop: 28
+[I 200913 10:53:10 models:86] 3 260608 train loss: 0.0032 P@5: 0.18899 nDCG@5: 0.5548 early stop: 29
+[I 200913 10:56:22 models:86] 3 286208 train loss: 0.00317 P@5: 0.19115 nDCG@5: 0.55996 early stop: 30
+[I 200913 10:59:35 models:86] 3 311808 train loss: 0.00365 P@5: 0.18866 nDCG@5: 0.55369 early stop: 31
+[I 200913 11:02:47 models:86] 3 337408 train loss: 0.00322 P@5: 0.18756 nDCG@5: 0.54906 early stop: 32
+[I 200913 11:05:59 models:86] 3 363008 train loss: 0.00318 P@5: 0.18759 nDCG@5: 0.54598 early stop: 33
+[I 200913 11:09:13 models:86] 3 388608 train loss: 0.00326 P@5: 0.18783 nDCG@5: 0.5498 early stop: 34
+[I 200913 11:12:25 models:86] 3 414208 train loss: 0.00341 P@5: 0.18961 nDCG@5: 0.55678 early stop: 35
+[I 200913 11:15:37 models:86] 3 439808 train loss: 0.00303 P@5: 0.1877 nDCG@5: 0.54739 early stop: 36
+[I 200913 11:18:49 models:86] 3 465408 train loss: 0.00324 P@5: 0.18704 nDCG@5: 0.54664 early stop: 37
+[I 200913 11:22:02 models:86] 3 491008 train loss: 0.00319 P@5: 0.1882 nDCG@5: 0.54995 early stop: 38
+[I 200913 11:25:14 models:86] 3 516608 train loss: 0.00312 P@5: 0.18669 nDCG@5: 0.54523 early stop: 39
+[I 200913 11:28:27 models:86] 3 542208 train loss: 0.00338 P@5: 0.18922 nDCG@5: 0.5529 early stop: 40
+[I 200913 11:31:39 models:86] 3 567808 train loss: 0.00319 P@5: 0.18819 nDCG@5: 0.54907 early stop: 41
+[I 200913 11:34:51 models:86] 3 593408 train loss: 0.00345 P@5: 0.19014 nDCG@5: 0.55567 early stop: 42
+[I 200913 11:38:04 models:86] 3 619008 train loss: 0.00333 P@5: 0.18908 nDCG@5: 0.55266 early stop: 43
+[I 200913 11:41:16 models:86] 3 644608 train loss: 0.00315 P@5: 0.18949 nDCG@5: 0.5533 early stop: 44
+[I 200913 11:44:27 models:86] 3 670208 train loss: 0.00292 P@5: 0.18935 nDCG@5: 0.55323 early stop: 45
+[I 200913 11:47:40 models:86] 3 695808 train loss: 0.00347 P@5: 0.18794 nDCG@5: 0.54869 early stop: 46
+[W 200913 11:49:23 models:107] Clipping gradients with total norm 0.008990000002086163 and max norm 0.0013200000394135714
+[I 200913 11:50:53 models:86] 3 721408 train loss: 0.00333 P@5: 0.18959 nDCG@5: 0.55397 early stop: 47
+[I 200913 11:54:05 models:86] 3 747008 train loss: 0.00323 P@5: 0.18782 nDCG@5: 0.5466 early stop: 48
+[I 200913 11:57:18 models:86] 3 772608 train loss: 0.00337 P@5: 0.18761 nDCG@5: 0.54707 early stop: 49
+[I 200913 12:00:29 models:86] 4 6144 train loss: 0.00319 P@5: 0.18671 nDCG@5: 0.54261 early stop: 50
+[I 200913 12:03:42 main:72] Finish Training
+[I 200913 12:03:42 main:75] Loading Test Set
+[I 200913 12:03:43 main:79] Size of Test Set: 198116
+[I 200913 12:03:43 main:81] Predicting
+[I 200913 12:07:07 main:93] Finish Predicting

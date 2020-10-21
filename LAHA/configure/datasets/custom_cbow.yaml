@@ -1,0 +1,23 @@
+name: custom_cbow
+
+train:
+  texts: data/custom_cbow/train.npy
+  labels: data/custom_cbow/train_labels.npy
+
+valid:
+  size: 70000
+
+test:
+  texts: data/custom_cbow/test.npy
+  labels: data/custom_cbow/test_labels.npy
+
+embedding:
+  emb_init: data/custom_cbow/emb_init.npy
+
+output:
+  res: results
+
+labels_binarizer: data/custom_cbow/labels_binarizer
+
+model:
+  emb_size: 300
