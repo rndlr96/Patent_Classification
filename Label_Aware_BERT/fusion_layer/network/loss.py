@@ -2,9 +2,11 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 
+__all__ = ['FocalLoss', 'Normalized_FocalLoss']
+
 class FocalLoss(nn.Module):
     def __init__(self, alpha=1, gamma=2, reduce=True, smooth=0):
-        super(Normalized_FocalLoss, self).__init__()
+        super(FocalLoss, self).__init__()
         self.alpha = alpha
         self.gamma = gamma
         self.reduce = reduce
